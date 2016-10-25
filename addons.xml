@@ -1497,6 +1497,36 @@ Gracias por su preferencia [COLOR cyan][B]BassFox[/B][/COLOR] based on Livetream
   </extension>
 </addon>
 
+<addon id="plugin.video.palcomaxbuild" name="PalcoMax Build" version="1.0" provider-name="www.informaticaglobaldariomo.blogspot.com.es">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">PalcoMax Build</summary>
+    <description lang="en">5/10/16 Versión 1.0
+Actualizador de los complementos de PalcoMax. </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.palcomaxbuildAndroid" name="PalcoMax Build Android" version="1.0" provider-name="www.informaticaglobaldariomo.blogspot.com.es">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">PalcoMax Build Android</summary>
+    <description lang="en">5/10/16 Versión 1.0
+Actualizador del addon PalcoMax para Android. </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.palcotv" name="[COLOR blue]PalcoTV   [COLOR gold]- Mod. Los 100 -[/COLOR]" version="0.3.5" provider-name="Juarrox">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
